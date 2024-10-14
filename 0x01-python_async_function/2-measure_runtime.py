@@ -1,10 +1,9 @@
-#!/usr/bin/env pyhton3
+#!/usr/bin/env python3
+'''Task 2: Measure the runtime
 '''
-Task 2: Measure the runtime
-'''
-
 import asyncio
 import time
+
 
 wait_n = __import__('1-concurrent_coroutines').wait_n
 
